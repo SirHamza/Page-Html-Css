@@ -1,0 +1,234 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4caf50;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Advantages */
+.advantages {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.advantages h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.advantages-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantage-item {
+    text-align: center;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 40px 0;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content img {
+    width: 400px;
+    margin-right: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-item {
+    text-align: center;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 40px 0;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+/* Our Process */
+.process {
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.process h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.process-steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    text-align: center;
+}
+
+/* Our Skills */
+.skills {
+    padding: 40px 0;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skills-bars {
+    max-width: 600px;
+    margin: auto;
+}
+
+.skill-bar {
+    margin: 10px 0;
+}
+
+.bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    background-color: #4caf50;
+    height: 100%;
+}
+
+/* Start a Project Form */
+.start-project {
+    padding: 40px 0;
+}
+
+.start-project form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.start-project input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.start-project button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #ff9800;
+}
